@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400&display=swap');
+
+/* Cores padrões 
+
+Rosa: #f3b4cb
+branco: #faf3f8
+laranja: #d3a33c
+
+fontes:
+
+font título
+font-family: 'Berkshire Swash', serif;
+
+font sub-título
+font-family: "Blinker", sans-serif;
+
+font padrão
+font-family: "Amiri", serif;
+
+*/
+
+.bg-primary-color {
+    background-color: #f3b4cb;
+}
+
+.bg-secondary-color {
+    background-color: #d3a33c;
+}
+
+.bg-light-color {
+    background-color: #faf3f8;
+}
+
+.primary-color {
+    color: #d3a33c;
+}
+
+.secondary-color {
+    color: #000;
+}
+
+.light-color {
+    color: #faf3f8;
+}
+
+/* NAVBAR */
+#navbar {
+    box-shadow: 0em 0.2em 1em rgba(0, 0, 0, 0.123);
+}
+
+#navbar a:hover {
+    color: #faf3f8;
+}
+
+#navbar a.active {
+    color: #d3a33c;
+    border-bottom: 1px solid #faf3f8;
+}
+
+#navbar a.active:hover {
+    color: #faf3f8;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-brand img {
+    width: 300px;
+}
+
+#navbar-items .navbar-nav {
+    font-family: "Blinker", sans-serif; 
+    font-size: 1.1em; 
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item {
+    margin: 0 1em;
+}
+
+/* CARD */
+
+#card-degustacao {
+    margin: 14em auto 0 auto;
+}
+
+#card-degustacao img {
+    width: 80%;
+    height: 46em;
+}
+
+#card-degustacao .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    font-family: "Amiri", serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.8em;
+}
+
+.botao-whatsapp {
+    background-color: #d3a33c;
+    padding: 0.7em;
+    border: none;
+    border-radius: 40px;
+}
+
+.botao-whatsapp a {
+    text-decoration: none;
+    color: #faf3f8;
+    font-family: "Blinker", sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.botao-whatsapp:hover {
+    background-color: #f3b4cb;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.281));
+}
+
+@media (max-width: 768px) {
+    #card-degustacao {
+        margin: 14em auto 0 auto;
+    }
+    
+    #card-degustacao img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card-text {
+        width: 100%;
+        font-family: "Amiri", serif;
+        font-size: 1.3em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .botao-whatsapp a {
+        font-size: 1em;
+    }
+}
+
+/* CARDS */
+#cards {
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.title {
+    font-family: "Blinker", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+.card-text {
+    font-family: "Amiri", serif;
+    font-size: 1.5em;
+}
+
+.card img {
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .card img {
+        height: 250px;
+    }
+}
+
+.card {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.137);
+}
+
+/* SEÇÃO INSTAGRAM */
+#secao-instagram {
+    background-color: #d3a33c;
+    margin-bottom: 4em;
+    padding: 2.5em;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.200));
+}
+
+#instagram {
+    margin: 0 auto;
+}
+
+#images-instagram {
+    display: inline-block;
+    margin: 0.5em 0 2em 0; 
+    text-align: center;
+}
+
+.img-instagram {
+    margin-bottom: 1em;
+}
+
+#instagram h2 {
+    text-align: center;
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #faf3f8;
+    text-shadow: 2px 2px 2px black;
+}
+
+#instagram p {
+    text-align: center;
+    margin: 1em auto 0.5em auto;
+    font-family: "Amiri", serif;
+    font-size: 1.4em;
+}
+
+#instagram button {
+    margin: 0 auto;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8em 3em;
+    filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.281));
+}
+
+#instagram button a {
+    text-decoration: none;
+    color: #d3a33c;
+    font-family: "Amiri", serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.082);
+}
+
+.media-instagram {
+    display: inline;
+}
+
+button {
+    display: block;
+}
+
+/* FOOTER TOP */
+#footer {
+    padding: 3em 2em;
+    box-shadow: 0em -0.2em 1em rgba(0, 0, 0, 0.123);
+}
+
+#title-footer {
+    width: 245px;
+}
+
+#adocica {
+    font-family: 'Berkshire Swash', serif;
+    font-size: 4em;
+    margin: 0em;
+}
+
+#footer-top {
+    margin-bottom: 2em;
+}
+
+#footer-top a{
+    text-decoration: none;
+}
+
+#byana {
+    margin: 0em;
+    font-family: "Blinker", sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.4em;
+    text-align: end;
+    line-height: 0.2em;
+}
+
+
+#footer-top, 
+#footer-top i {
+    color: #d3a33c;
+}
+
+#social-icons {
+    text-align: right;
+}
+
+#social-icons i {
+    margin-right: 0.7em;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+#social-icons i:hover {
+    color: #faf3f8;
+    transition: 0.2s;
+}
+
+#footer-details {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+#list-menu, 
+#contact, 
+#links-container {
+    padding: 0;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+#footer-details h4 {
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+#list-menu li {
+    list-style: none;
+
+}
+
+#list-menu li a {
+    font-family: "Amiri", serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#list-menu li a:hover {
+    color: #faf3f8;
+    transition: 0.2s;
+}
+
+#footer-details h4 {
+    margin-bottom: 1em;
+}
+
+#contact-container p {
+    font-family: "Amiri", serif;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+#links-container li {
+    margin-bottom: 0.5em;
+}
+
+#links-container a {
+    font-family: "Amiri", serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+#links-container a:hover {
+    color: #faf3f8;
+}
+
+/* FOOTER BOTTOM */
+#footer-bottom {
+    border-top: 1px solid #faf3f8;
+    padding-top: 1.3em;
+}
+
+#footer-bottom p {
+    font-family: "Amiri", serif;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+#footer-bottom i {
+    color: red;
+    margin-left: 0.3em;
+}
+
+@media (min-width: 768px) {
+    #list-menu {
+        padding-right: 2em;
+    }
+
+    #links-container {
+        padding-left: 2em;
+    }
+
+    #contact-container {
+        padding: 0 2em;
+        border-left: 1px solid #faf3f8;
+        border-right: 1px solid #faf3f8;
+    }
+}
