@@ -67,12 +67,12 @@ font-family: "Amiri", serif;
 
 .navbar-brand {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
 }
 
 .navbar-brand img {
-    width: 300px;
+    width: 60%;
 }
 
 #navbar-items .navbar-nav {
@@ -89,9 +89,16 @@ font-family: "Amiri", serif;
     margin: 0 1em;
 }
 
+@media (max-width: 600px) {
+    .navbar-brand img {
+        width: 50%;
+    }
+
+}
+
 /* CARDS */
 #cards {
-    margin-top: 13em;
+    margin-top: 12em;
     margin-bottom: 4em;
 }
 
@@ -111,9 +118,29 @@ font-family: "Amiri", serif;
     height: 300px;
 }
 
-@media (max-width: 768px) {
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-body a {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 1.7em;
+    }
+    
     .card img {
-        height: 250px;
+        height: 270px;
     }
 }
 
@@ -132,7 +159,7 @@ font-family: "Amiri", serif;
     justify-content: center;
     align-items: center;
     font-family: "Blinker", sans-serif;
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-weight: 600;
     padding: 0.8em;
     border-radius: 10px;
@@ -186,8 +213,7 @@ font-family: "Amiri", serif;
 }
 
 #adocica {
-    font-family: 'Berkshire Swash', serif;
-    font-size: 4em;
+    width: 100%;
     margin: 0em;
 }
 
@@ -198,17 +224,6 @@ font-family: "Amiri", serif;
 #footer-top a{
     text-decoration: none;
 }
-
-#byana {
-    margin: 0em;
-    font-family: "Blinker", sans-serif;
-    font-size: 0.8em;
-    font-weight: 600;
-    letter-spacing: 0.4em;
-    text-align: end;
-    line-height: 0.2em;
-}
-
 
 #footer-top, 
 #footer-top i {
@@ -306,6 +321,18 @@ font-family: "Amiri", serif;
 #footer-bottom i {
     color: red;
     margin-left: 0.3em;
+}
+
+@media (max-width: 400px) {
+    #adocica {
+        width: 90%;
+    }
+
+    #social-icons i {
+        margin-right: 0.4em;
+        font-size: 1.6em;
+        cursor: pointer;
+    }
 }
 
 @media (min-width: 768px) {
