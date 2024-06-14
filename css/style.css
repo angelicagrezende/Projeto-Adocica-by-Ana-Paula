@@ -95,15 +95,15 @@ font-family: "Amiri", serif;
     }
 
     .navbar-brand img {
-        width: 40%;
+        width: 60%;
     }
 
     #navbar-items .navbar-nav {
-        font-size: 1em; 
+        font-size: 0.9em; 
     }
 
     .nav-link {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 
 }
@@ -150,6 +150,13 @@ font-family: "Amiri", serif;
 
 .carousel-indicators .active {
     background-color: #000;
+}
+
+@media (max-width: 768px) {
+    #slider {
+        margin-top: 9em;
+        margin-bottom: 1em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -516,7 +523,7 @@ font-family: "Amiri", serif;
 
 @media (max-width: 768px) {
     #adocica {
-        width: 50%;
+        width: 55%;
     }
 
     #social-icons i {
