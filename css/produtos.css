@@ -90,8 +90,17 @@ font-family: "Amiri", serif;
 }
 
 @media (max-width: 768px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .navbar-brand img {
-        width: 45%;
+        width: 32%;
+    }
+
+    #navbar-items .navbar-nav {
+        font-size: 1em; 
     }
 
 }
@@ -123,6 +132,8 @@ font-family: "Amiri", serif;
 }
 
 .card-text {
+    font-family: "Amiri", sans-serif;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -136,7 +147,11 @@ font-family: "Amiri", serif;
 
 @media (max-width: 768px) {
     .title {
-        font-size: 1.7em;
+        font-size: 1.6em;
+    }
+
+    .subtitle {
+        font-size: 1em;
     }
     
     .card img {
@@ -204,7 +219,7 @@ font-family: "Amiri", serif;
 
 /* FOOTER TOP */
 #footer {
-    padding: 3em 2em;
+    padding: 3em 1em;
     box-shadow: 0em -0.2em 1em rgba(0, 0, 0, 0.123);
 }
 
@@ -215,6 +230,7 @@ font-family: "Amiri", serif;
 #adocica {
     width: 100%;
     margin: 0em;
+    padding: 0em;
 }
 
 #footer-top {
@@ -245,17 +261,26 @@ font-family: "Amiri", serif;
     transition: 0.2s;
 }
 
+@media (max-width: 768px) {
+    
+    #social-icons {
+        text-align: right;
+        display: flex;
+        justify-content: right;
+    }
+}
+
 #footer-details {
     margin-top: 2em;
     margin-bottom: 3em;
 }
 
 #list-menu, 
-#contact, 
+#contact-container, 
 #links-container {
     padding: 0;
     border: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
 #footer-details h4 {
@@ -325,13 +350,33 @@ font-family: "Amiri", serif;
 
 @media (max-width: 768px) {
     #adocica {
-        width: 45%;
+        width: 50%;
     }
 
     #social-icons i {
-        margin-right: 0.3em;
+        margin-right: 0.4em;
         font-size: 1.3em;
         cursor: pointer;
+    }
+
+    #list-menu li a {
+        font-size: 1em;
+    }
+
+    #contact-container p {
+        font-size: 1em;
+    }
+
+    #links-container a {
+        font-size: 1em;
+    }
+
+    #footer-details h4 {
+        font-size: 1.4em;
+    }
+
+    #footer-bottom p {
+        font-size: 1em;
     }
 }
 
