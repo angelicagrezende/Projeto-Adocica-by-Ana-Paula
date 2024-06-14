@@ -157,6 +157,10 @@ font-family: "Amiri", serif;
     .card img {
         height: 285px;
     }
+
+    .card-text {
+        font-size: 1em;
+    }
 }
 
 .card {

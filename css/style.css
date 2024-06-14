@@ -81,8 +81,7 @@ font-family: "Amiri", serif;
     font-weight: 600;
     letter-spacing: 0.3em;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: center; 
 }
 
 #navbar-items .nav-item {
@@ -91,16 +90,20 @@ font-family: "Amiri", serif;
 
 @media (max-width: 768px) {
     .navbar-brand {
+        width: 60%;
         display: flex;
-        justify-content: space-between;
     }
 
     .navbar-brand img {
-        width: 32%;
+        width: 40%;
     }
 
     #navbar-items .navbar-nav {
         font-size: 1em; 
+    }
+
+    .nav-link {
+        font-size: 1em;
     }
 
 }
