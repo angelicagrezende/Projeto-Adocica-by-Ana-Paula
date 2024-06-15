@@ -286,13 +286,8 @@ font-family: "Amiri", serif;
         padding: 0.5em 0 2.2em 0;
     }
 
-    #area-img-orcamento {
-        display: none;
-    }
-
     #img-orcamento {
-        display: none;
-        margin: 0;
+        width: 120%;
     }
     
     .title-orcamento {
